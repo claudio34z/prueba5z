@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="logo.css"> 
+    <link rel="stylesheet" href="baseweb.css">
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="cabesera.css">   
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>   
+
+<div id="cabesera">
+
+        <div id="logo">
+              <h1 class="logo-name">
+                    School<span class="pip"> tools</span>
+              </h1>
+        </div>
+    
+     <div id="caja-buscador">
+              <input type="text" style="border:none" class="pipi" id="inputSearch" placeholder="¿Qué deseas buscar...?">
+     </div>
+<div id="franja"></div> <div id="franja2"></div>
+     <ul id="caja-resultado-busqueda">
+            <li><a href="articulo.html"><i class="fas fa-search" style="width:24px;background:;"></i>Lapices de color Maped</a></li>
+            <li><a href="articulo.html"><i class="fas fa-search" style="width:24px;background:;"></i>CSS</a></li>
+            <li><a href="articulo.html"><i class="fas fa-search" style="width:24px;background:;"></i>Como hacer</a></li>
+            <li><a href="articulo.html"><i class="fas fa-search" style="width:24px;background:;"></i>PHP</a></li>
+            <li><a href="articulo.html"><i class="fas fa-search" style="width:24px;background:;"></i>NODEJS</a></li>
+            <li><a href="articulo.html"><i class="fas fa-search" style="width:24px;background:;"></i>VUEJS</a></li>
+            <li><a href="articulo.html"><i class="fas fa-search" style="width:24px;background:;"></i>hello</a></li>
+            <li><a href="articulo.html"><i class="fas fa-search" style="width:24px;background:;"></i>hey</a></li>
+     </ul>
+
+     <div id="gris-gris" onclick="myFunction1()"></div>
+
+     
+
+</div>
+    <div id="cover-ctn-search"></div>
+    <div id="primerobjeto"></div>
+<!--------------------------------------------base de la web ------------------------------------------------------>
+<div id="cabesera-titulo">
+           <p class="cabesera-titulotesto">Lapices Maped Color Peps Largos 48 ULargos 48 U</p><p class="cabesera-presio">$ 20.00</p>
+    </div>
+
+
+
+<div id="caja-galeriabase">
+
+      <div id="caja-izquierda">
+          
+              <div id="imagen-big"><img id="myImg"class="img-big"src="foto1.png"></div>
+     
+             <div id="imagen-smallR"><img onmouseover="radal1()"class="im-small"src="foto1.png"></div>
+              <div id="imagen-small"><img onmouseover="radal2()"class="im-small"src="foto2.png"></div>
+              <div id="imagen-small"><img onmouseover="radal3()"class="im-small"src="fotoff.png"></div>
+              <div id="imagen-small"><img onmouseover="radal4()"class="im-small"src="fotoff.png"></div>
+              <div id="imagen-small"><img onmouseover="radal5()"class="im-small"src="fotoff.png"></div>
+              <div id="imagen-small"><img onmouseover="radal6()"class="im-small"src="fotoff.png"></div>
+              
+       </div>
+    <div id="cabesera-descripcion">
+           <p class="cabesera-description">Descripción del Artí­culo</p>
+    </div>
+    <div id="testo-descripcion">
+    <p class="testo-descripcion">
+          - Lapices Maped Color Pep´s<br >
+          - Largos X 48 Colores en amplia gama de tonos<br >
+          - Cuerpo Triangular de Fácil Agarre<br>
+          - Minas resistentes<br >
+          - Facilidad para sacar puntas<br >
+          - Incluye colores Dorado, Plateado y 4 fluo
+    </p>
+    </div>
+   
+
+</div>
+    <div id="primerobjeto"></div>
+    
+    <script src="buscado.js"></script>
+      <script> 
+function radal1() {
+  document.getElementById("myImg").src = "foto1.png";
+}
+function radal2() {
+  document.getElementById("myImg").src = "foto2.png";
+}
+function radal3() {
+  document.getElementById("myImg").src = "fotoff.png";
+}
+function radal4() {
+  document.getElementById("myImg").src = "fotoff.png";
+}
+function radal5() {
+  document.getElementById("myImg").src = "fotoff.png";
+}
+function radal6() {
+  document.getElementById("myImg").src = "fotoff.png";
+}
+function radal7() {
+  document.getElementById("myImg").src = "fotoff.png";
+}
+/*===================al hacer click afuera. por mi=======================*/
+     window.onload=function()
+     {
+          var hidediv=document.getElementById('caja-resultado-busqueda');
+          document.onclick=function(div)
+          {
+               if(div.target.id !=='caja-resultado-busqueda')
+               {
+                   hidediv.style.display='none';
+                   /*inputSearch.value = "";*/
+               }
+          };
+
+     };
+</script> 
+</body>
+</html>
+
+
+
+
+
+
+
