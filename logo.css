@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo-name {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "ubuntu";
+  color: #F2F5A9;
+  text-align: center;
+}
+.pip {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "ubuntu";
+  color: yellow;
+  text-align: center;
+}
+#logo{
+    margin-left:6%;
+    top:14px;
+    width: 238px;
+    height: 45px;
+    position: fixed;
+    background: ;
+    z-index: 0;display:none;
+}
