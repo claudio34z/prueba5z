@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#primerobjeto{
+      width:200px;           height:80px;     margin-left:auto;
+      margin-right:auto;     border:2px solid transparent;
+}
+/*================================================================================*/
+/*================================caja-galeriabase================================*/
+/*================================================================================*/
+#caja-galeriabase{ 
+      width:880px;                 margin-right:auto;
+      margin-left:auto;      background: #F2F2F2;  overflow:hidden;           
+}
+/*================================================================================*/
+#cabesera-titulo{
+    width:880px;          border-radius:10px 10px 0px 0px;   margin-left:auto;   margin-right:auto;
+    background:#F2F2F2;   
+}
+/*================================================================================*/
+.cabesera-titulotesto{
+     font-family:ubuntu;     font-weight:bold;      margin-left:20px;
+     font-size:30px;         background:;           margin-top:7px;
+}
+/*================================================================================*/
+.cabesera-presio{
+     font-family:ubuntu;     font-weight:bold;    margin-left:100px;     width:130px;           color:white;
+     font-size:30px;         background:blue;     margin-top:0px;       border-radius: 20px;   text-align:center;
+}
+/*==============================caja-izquierda====================================*/
+#caja-izquierda{ 
+      margin-left:60px;     border-radius: 0px;     float: left;
+      width:734px;          height:446px;           border:1px solid red;
+}
+/*==============aqui galeria foto===============*/
+#imagen-big{
+      margin-top:2px;    float: right;    width:632px;    height:440px;    
+      overflow:hidden;    border:2px solid black;       border-radius: 10px;
+}
+.img-big{
+      height:440px; 
+}
+.im-small{
+      height:54px;
+}
+#imagen-smallR{
+      border-radius: 10px;   margin-left:9px;    margin-top:35px;     float: left;    width:82px;   
+      height:54px;   border:2px solid black;   overflow: hidden;
+}
+#imagen-small{
+      border-radius: 10px;   margin-left:9px;    margin-top:10px;    float: left;    width:81px;    
+      height:54px;    border:2px solid black;     overflow: hidden;
+}
+
+#imagen-small:hover{
+      border:2px solid #FE9A2E;
+}
+#imagen-smallR:hover{
+      border:2px solid #FE9A2E;
+}
+/*============================================fin galeria================================================*/
+
+#cabesera-descripcion{
+     float:left;       background:#FE9A2E;    width:880px;               height:50px;
+     border-radius:0px 0px 0px 0px;           border:1px solid #FE9A2E;
+}
+.cabesera-description{
+font-family:ubuntu;
+     font-weight:bold;    width:600px;    margin-left:264px;     float:left;
+     font-size:30px;      margin-top:7px;
+}
+#testo-descripcion{  
+     margin-top:20px;     background:white;    border:1px solid #FE9A2E;    background:white;
+     width:800px;         margin-left:40px;    border-radius:10px;          float:left;
+}
+.testo-descripcion{  
+     color:black;        font-family:ubuntu;    font-weight:bold;
+     font-size:30px;     line-height:50px;
+}
+
+/*==========================================================================================================*/
+@media (max-width:500px){
+
+#cabesera-titulo{overflow:hidden;
+    width:310px;          border-radius:10px 10px 0px 0px;
+    background:#F2F2F2;   
+}
+.cabesera-titulotesto{
+      width:304px;       margin-left:3px;    margin-top:5px;
+      font-size:20px;    background:red;     
+}
+.cabesera-presio{
+     font-family:ubuntu;     font-weight:bold;    margin-left:30px;     width:100px;   color:white;
+     font-size:20px;         background:blue;     margin-top:0px;       border-radius: 20px;   text-align:center;
+}
+#imagen-small{
+      display:none;
+}
+#imagen-smallR{
+      display:none;
+}
+#caja-izquierda{ 
+      margin-left:auto;     margin-right:auto;     border-radius: 0px;    border:1px solid  #F2F2F2;
+      float: left;          width:310px;           height:213px;         
+}
+#imagen-big{
+      margin-top:0px;    float: left;    width:306px;    height:210px;    
+      overflow:hidden;    border:2px solid black;       border-radius: 10px;   margin-left:1px;
+}
+.img-big{
+      height:210px;
+}
+#caja-galeriabase{ 
+      width:310px;                       margin-right:auto;
+      margin-left:auto;     background: #F2F2F2;              
+}
+#cabesera-descripcion{
+     float:left;       background:#FE9A2E;         width:310px;              height:30px;
+     border-radius:0px 0px 0px 0px;           border:1px solid #FE9A2E;
+}
+.cabesera-description{
+      font-family:ubuntu;    font-weight:bold;        margin-left:95px;     margin-left:36px;  
+      float:left;            font-size:20px;      background:;     margin-top:2px;    width:250px; 
+}
+#testo-descripcion{  
+     margin-top:1px;    background:white;     border:1px solid #FE9A2E;    background:white;
+     width:308px;        margin-left:1px;     border-radius:10px;          float:left;
+}
+.testo-descripcion{  
+     color:black;       font-family:ubuntu;    font-weight:bold;
+     font-size:18px;    line-height:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
