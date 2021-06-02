@@ -1,0 +1,89 @@
+*{
+    margin: 0;                   padding: 0;    box-sizing: border-box;
+    text-decoration: none;       font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+background: #A4A4A4;
+}
+#gris-gris{
+    width: 10px;     height: 10px;             position: fixed;     background: rgba(0,0,0,0.3);    
+    z-index: 0;      margin-left:-15px;        display: none;
+}
+/********************************************************************************************/
+/****************************************CABESERA********************************************/
+/********************************************************************************************/
+#cabesera{
+    width: 100%;           height: 54px;      position: fixed;
+    background:black;         
+}
+#franja{
+    width: 100%;        height: 4px;  background:blue;  
+    margin-top:4px;    float:left;
+}
+/********************************************************************************************/
+/******************************CAJA DEL INPUT************************************/
+/********************************************************************************************/
+#centro{
+      border:1px solid ;     width: 306px;
+      margin-top: 4px;             margin-left:auto;      margin-right:auto;   
+}
+#caja-buscador{ 
+      width:304px;     
+      background: #FE9A2E;    padding: 2px; 
+}
+#caja-buscador input{  
+      font-weight: bold;    width: 300px;
+      padding: 5px;         font-size: 22px;  
+}
+#caja-buscador input:focus{  
+     outline:0;  
+}
+/********************************************************************************************/
+/******************************CAJA RESULTADO DE BUSQUEDA************************************/
+/********************************************************************************************/
+#caja-resultado-busqueda{
+    list-style:none;     position:absolute;     margin-top:0px;     
+    width: 304px;        background: white;     display: none;
+}
+#caja-resultado-busqueda li a{ 
+    font-weight: bold;    font-size: 22px;    display: block;
+    width: 1200px;        color: black;       padding: 5px 10px;
+}
+#caja-resultado-busqueda li a:hover{
+    width: 304px;
+    background: #F6D8CE;
+}
+#caja-resultado-busqueda li a i{
+    margin-right: 10px;
+    color:#FE9A2E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+

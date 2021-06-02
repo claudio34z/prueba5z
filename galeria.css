@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#primerobjeto{
+      width:200px;           height:80px;     margin-left:auto;
+      margin-right:auto;     border:2px solid red;
+}
+/******************************************************************************/
+/*********************************LISTA DE*************************************/
+/******************************************************************************/
+#caja-listabase{
+    background:white;      width:310px;    height:500px;
+    margin-left:auto;      margin-right:auto;
+}
+#cabesera-lista{
+    background:#FE9A2E;    width:310px;          height:28px;    border-radius:10px 10px 0px 0px;
+    margin-left:auto;      margin-right:auto;    
+}
+.cabesera-testo{
+    background:;   font-size:18px;   width:288px;
+    float:left;       margin-left:20px;  margin-top:4px;
+}
+
+#barra{ 
+    width:310px;         height:106px;      border:1px solid transparent;
+    margin-left:auto;    margin-right:auto;  
+}
+#imagen-bigg{
+    border-radius:10px;     width:153px;             float:left; 
+    height:104.5px;                    border:1px solid black;    overflow:hidden;
+}
+.im-bigg{
+   height:104.5px; 
+}
+
+#testo-lista{
+   border:1px solid transparent;     float:left;
+   width:155px;               height:88px;
+}
+.testo-lista{
+    color:black;       font-weight:bold;
+    font-size:14px;    background:; 
+}
+#testo-presio{
+    border:1px solid transparent;     margin-bottom:0px;    
+    width:100px;                      float:left; 
+}
+.testo-presio{ 
+     background:blue;    color:white;          font-weight:bold;    width:75px; 
+     font-size:17px;     text-align:center;    line-height:15px;    border-radius:10px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
